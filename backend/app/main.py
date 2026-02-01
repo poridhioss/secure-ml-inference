@@ -68,12 +68,6 @@ app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
     description="""
-    Sentiment Analysis API with:
-    - JWT Authentication
-    - Load Balancing (Nginx)
-    - PostgreSQL Database
-    - Real-time Sentiment Prediction
-    
     ## Authentication
     1. Register: POST /api/auth/register
     2. Login: POST /api/auth/login (get JWT token)
